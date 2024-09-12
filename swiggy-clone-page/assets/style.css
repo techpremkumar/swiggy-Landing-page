@@ -1,0 +1,478 @@
+.Header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 16px -6px #222;
+  z-index: 1;
+}
+.Header .logo {
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.Header .logo:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+.Header .search {
+  margin-left: 35px;
+  margin-top: 30px;
+}
+.Header .search:hover {
+  cursor: pointer;
+}
+.Header .search:hover u {
+  color: orange;
+}
+.Header .search u {
+  font-size: 15px;
+  font-weight: bold;
+  color: #414141;
+}
+.Header .search p {
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+}
+.Header .search p .search-icon {
+  color: orange;
+}
+.Header .nav {
+  margin-left: 200px;
+  margin-top: 30px;
+  color: rgb(92, 91, 91);
+}
+.Header .nav p {
+  margin-left: 40px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.Header .nav p:hover {
+  color: orange;
+  cursor: pointer;
+}
+.Header .nav p i {
+  margin-right: 20px;
+}
+.Container {
+  padding: 80px 150px 20px;
+}
+.FirstSlider {
+  overflow: hidden;
+  z-index: -1;
+}
+.FirstSlider .Topic {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FirstSlider .Topic h4 {
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.FirstSlider .Slider {
+  display: flex;
+  height: 250px;
+}
+
+.FirstSlider .Slider #pics:hover {
+  cursor: pointer;
+  scale: 1.005;
+}
+.FirstSlider .Slider img {
+  width: 400px;
+  height: 250px;
+  margin-right: 25px;
+  transition: transform 0.5s ease-in-out;
+}
+.prev1,
+.prev2,
+.prev3 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  color: gray;
+}
+.next1,
+.next2,
+.next3 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  color: gray;
+}
+.SecondSlider {
+  overflow: hidden;
+  margin-top: 30px;
+}
+.SecondSlider .Topic {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SecondSlider .Topic h4 {
+  font-weight: bolder;
+}
+.SecondSlider .Slider {
+  display: flex;
+  margin-top: 10px;
+  height: 200px;
+}
+.SecondSlider .Slider img {
+  width: 190px;
+  height: 190px;
+  margin-right: 25px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.SecondSlider .Slider #pics:hover {
+  cursor: pointer;
+  scale: 1.02;
+}
+.ThirdSlider {
+  overflow: hidden;
+  margin-top: 30px;
+}
+.ThirdSlider .Topic {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ThirdSlider .Topic h4 {
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.ThirdSlider .Slider {
+  display: flex;
+  height: 300px;
+  margin-top: 20px;
+}
+.ThirdSlider .Slider .Sec {
+  width: 300px;
+  height: 300px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.ThirdSlider .Slider .Sec:hover {
+  cursor: pointer;
+  background-color: #f3f3f3;
+  scale: 1.005;
+}
+.ThirdSlider .Slider #pics {
+  width: 270px;
+  height: 190px;
+  margin-right: 25px;
+  border-radius: 10px;
+}
+.ThirdSlider .Slider .Sec h6 {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 17px;
+  margin-bottom: 2px;
+}
+.ThirdSlider .Slider .Sec i {
+  color: #ffffff;
+  margin-left: 10px;
+  padding: 2px;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 50px;
+}
+.ThirdSlider .Slider .Sec p {
+  margin-left: 10px;
+  color: rgb(87, 87, 87);
+}
+
+.FoodSection {
+  height: auto;
+}
+.FoodSection h4 {
+  font-weight: bolder;
+}
+.FoodSection .Filters {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.FoodSection .Filters p {
+  color: rgb(71, 71, 71);
+  border: 0.5px solid rgb(167, 167, 167);
+  border-radius: 30px;
+  padding: 10px 12px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.FoodSection .Filters p:hover {
+  scale: 0.97;
+}
+
+.FoodSection .FoodSection-Cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.FoodSection .FoodSection-Cards .Card {
+  width: 260px;
+  height: 300px;
+}
+.FoodSection .FoodSection-Cards .Card:hover {
+  cursor: pointer;
+  scale: 0.95;
+}
+.FoodSection .FoodSection-Cards .Card img {
+  width: 250px;
+  height: 160px;
+}
+.FoodSection .FoodSection-Cards .Card h6 {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 17px;
+  margin-bottom: 2px;
+}
+.FoodSection .FoodSection-Cards .Card i {
+  color: #ffffff;
+  margin-left: 10px;
+  padding: 2px;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 50px;
+}
+.FoodSection .FoodSection-Cards .Card p {
+  margin-left: 10px;
+  color: rgb(87, 87, 87);
+}
+.BestPlace h4 {
+  font-weight: bolder;
+}
+.BestPlace .Places {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.BestPlace .Places p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  border: 1px solid rgb(167, 166, 166);
+  color: #414141;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.BestPlace .Places p:last-child {
+  font-weight: bold;
+}
+.BestPlace .Places p:hover {
+  scale: 0.97;
+}
+.NearMe h4 {
+  font-weight: bolder;
+}
+.NearMe .Items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.NearMe .Items p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  border: 1px solid rgb(167, 166, 166);
+  color: #414141;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.NearMe .Items p:last-child {
+  font-weight: bold;
+}
+
+.NearMe .Items p:hover {
+  scale: 0.97;
+}
+.ExploreNearMe h4 {
+  font-weight: bolder;
+}
+.ExploreNearMe .Items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.ExploreNearMe .Items p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  font-weight: 500;
+  border: 1px solid rgb(167, 166, 166);
+  color: #414141;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.ExploreNearMe .Items p:hover {
+  scale: 0.97;
+}
+.AppLink {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(190, 190, 190);
+}
+.AppLink h3 {
+  font-weight: 700;
+  margin-left: 200px;
+  color: rgb(56, 56, 56);
+}
+.AppLink button {
+  width: 230px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  gap: 10px;
+}
+.AppLink .Text {
+  color: #ffffff;
+}
+.AppLink .Text h6 {
+  margin-bottom: 0px;
+  margin-right: 43px;
+  margin-top: 10px;
+  font-size: 13px;
+  color: rgb(192, 191, 191);
+}
+.AppLink #btn2 {
+  margin-left: 20px;
+}
+
+.AppLink #btn2 i {
+  color: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.AppLink #btn2 h5 {
+  margin-right: 55px;
+}
+.MainFooter {
+  height: auto;
+  background-color: #02060c;
+}
+.Footer {
+  display: flex;
+  width: 100%;
+  color: #ffffff;
+  gap: 40px;
+  padding: 50px 200px 30px;
+  background-color: #02060c;
+}
+.Footer .Logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 130px;
+}
+.Footer .Logo h5 {
+  font-weight: 800;
+  margin-top: 10px;
+}
+.Footer .Logo p {
+  margin-left: 10px;
+}
+
+.Footer .Company ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+  font-size: 16px;
+  color: #b4b4b4;
+}
+.Footer .Company li:first-child {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+.Footer .Contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+  font-size: 16px;
+  color: #b4b4b4;
+}
+.Footer .Contact li:first-child {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+.Footer .Delivery ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+  font-size: 16px;
+  color: #b4b4b4;
+}
+.Footer .Delivery li:first-child {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+.Footer .Delivery li:last-child {
+  border: 1px solid #b4b4b4;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.CityFooter {
+  padding: 10px 150px 10px;
+}
+.CityFooter h5 {
+  color: #ffffff;
+  font-weight: bolder;
+}
+.CityFooter .CityList {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.CityFooter .CityList ul {
+  padding: 0px;
+  list-style-type: none;
+  color: #b4b4b4;
+}
+.CityFooter .CityList li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.MainFooter .Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MainFooter .Info .Name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #b4b4b4;
+}
+.MainFooter .Info .Name p {
+  margin-bottom: 10px;
+}
+.MainFooter .Info .Icon img {
+  margin-right: 20px;
+}

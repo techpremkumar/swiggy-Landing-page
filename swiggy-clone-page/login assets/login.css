@@ -1,0 +1,157 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #d5d4db;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  height: 550px;
+  background-color: #efeef2;
+  overflow: hidden;
+  position: relative;
+}
+.container h1 {
+  margin-bottom: 0px;
+}
+.container p {
+  font-size: 15px;
+}
+.container p b {
+  color: #dd0050;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  background-color: #ffffff;
+}
+.wrapper #inp {
+  width: 250px;
+  height: 40px;
+  border: 2px solid gray;
+  border-radius: 25px;
+  margin-top: 20px;
+  padding-left: 40px;
+}
+.wrapper svg {
+  position: absolute;
+  margin-top: 33px;
+  margin-left: 17px;
+}
+.wrapper #check {
+  margin-top: 5px;
+}
+.wrapper #check #bb {
+  margin-left: 50px;
+}
+
+.wrapper #check b {
+  font-size: 15px;
+  color: rgb(85, 85, 85);
+}
+.wrapper #check b:hover {
+  cursor: pointer;
+  color: rgb(0, 13, 126);
+}
+button {
+  width: 300px;
+  height: 45px;
+  border: none;
+  background-color: #df0052;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.wrapper .with {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper .with hr {
+  width: 70px;
+  height: 0px;
+}
+.wrapper .icon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.wrapper .icon a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  font-size: 20px;
+  text-decoration: none;
+}
+.wrapper .icon a ~ a {
+  color: rgb(0, 153, 204);
+}
+
+.wrapper .icon a:last-child {
+  color: rgb(212, 0, 0);
+}
+.container .nav {
+  display: flex;
+  gap: 80px;
+  margin-top: 20px;
+  color: rgb(41, 41, 41);
+  z-index: 13;
+}
+.container .nav p {
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-shadow: 0px 0px 10px black;
+}
+.container .nav p:hover {
+  cursor: pointer;
+  color: #df0052;
+}
+.container img {
+  position: absolute;
+}
+.container #meat {
+  left: 800px;
+  top: -80px;
+}
+
+.container #noodles {
+  left: -90px;
+  top: 150px;
+}
+.container #pizza {
+  left: 850px;
+  top: 420px;
+  z-index: 1;
+}
+.container #item1 {
+  left: 100px;
+  top: 100px;
+}
+.container #item2 {
+  left: 140px;
+  top: 270px;
+}
+.container #item3 {
+  left: 840px;
+  top: 410px;
+}
+.container #item4 {
+  left: 740px;
+  top: 70px;
+}
